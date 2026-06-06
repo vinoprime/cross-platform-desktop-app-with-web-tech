@@ -1,0 +1,17 @@
+# Step-1
+$ cd ./web-app
+$ npm i
+
+
+# Step-2
+$ cd ./packaging/msix
+$ ./build-msix.ps1
+
+# Step-3:
+-- artifacts folder will generate automatically
+-- navigate to msix folder
+-- install the .cer to you local machine
+-- install the .msix file
+
+# Step-4:
+-- App ready to use!
