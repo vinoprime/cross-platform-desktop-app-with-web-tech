@@ -1,0 +1,57 @@
+:root {
+  --text: #6b6375;
+  --text-h: #08060d;
+  --bg: #fff;
+  --border: #e5e4e7;
+  --code-bg: #f4f3ec;
+  --accent: #aa3bff;
+  --accent-bg: rgba(170, 59, 255, 0.1);
+  --accent-border: rgba(170, 59, 255, 0.5);
+  --social-bg: rgba(244, 243, 236, 0.5);
+  --shadow:
+    rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+
+  --text: #29303d;
+  --heading: #171b22;
+  --muted: #6b7280;
+  --bg: #fff9f2;
+  --border: rgba(95, 74, 53, 0.15);
+  --accent: #bb5c2d;
+  --shadow: 0 22px 48px rgba(35, 24, 15, 0.1);
+
+  font-family: "Segoe UI", "Trebuchet MS", sans-serif;
+  font-size: 16px;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    radial-gradient(circle at top, rgba(217, 134, 59, 0.16), transparent 30%),
+    linear-gradient(180deg, #fff8f1 0%, #fffdf9 100%);
+}
+
+h1,
+h2 {
+  color: var(--heading);
+}
+
+h1 {
+  font-size: clamp(2.5rem, 6vw, 4.8rem);
+  line-height: 0.95;
+  letter-spacing: -0.04em;
+  margin: 0 0 1rem;
+}
+
+h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.25rem;
+}
+
+p {
+  margin: 0;
+}

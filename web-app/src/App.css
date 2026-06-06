@@ -1,0 +1,80 @@
+.shell {
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+.panel {
+  width: min(560px, 100%);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: var(--shadow);
+  padding: 1rem;
+}
+
+.panel h1 {
+  margin: 0 0 1rem;
+  font-size: 1.2rem;
+}
+
+.state {
+  margin: 0.25rem 0 0.75rem;
+}
+
+.state.error {
+  color: #b42318;
+}
+
+.todo-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 0.75rem;
+  background: #fff;
+}
+
+.todo-item p {
+  margin: 0.15rem 0 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.status {
+  font-weight: 700;
+  font-size: 0.78rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 999px;
+  border: 1px solid transparent;
+}
+
+.status.done {
+  color: #166534;
+  background: #ecfdf3;
+  border-color: #86efac;
+}
+
+.status.pending {
+  color: #9a3412;
+  background: #fff7ed;
+  border-color: #fdba74;
+}
+
+@media (max-width: 900px) {
+  .shell {
+    padding: 1rem;
+  }
+}

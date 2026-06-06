@@ -1,0 +1,146 @@
+# ============================================================
+# .NET / C#
+# ============================================================
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+.vs/
+*.rsuser
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/packages/
+packages/
+!**/[Pp]ackages/build/
+*.lock.json
+!packages.lock.json
+NuGetFallbackFolder
+
+# dotnet publish output
+publish/
+artifacts/
+
+# Native AOT
+*.ilk
+*.pdb
+*.exp
+*.lib
+*.map
+
+# Test results
+TestResults/
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+
+# ============================================================
+# MSIX / Windows Packaging
+# ============================================================
+*.msix
+*.msixbundle
+*.appxbundle
+*.appx
+*.cer
+*.pfx
+*.p12
+*.pvk
+*.spc
+
+# MSIX build layout (generated)
+packaging/msix/layout/
+
+# ============================================================
+# Web / Node.js
+# ============================================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# Build output (Vite / web bundlers)
+dist/
+.vite/
+.next/
+out/
+build/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+
+# ============================================================
+# Certificates & Secrets (never commit)
+# ============================================================
+*.key
+*.pem
+*.crt
+secrets/
+certs/
+
+# ============================================================
+# Visual Studio / VS Code
+# ============================================================
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+.vscode/*.code-workspace
+!.vscode/extensions.json
+
+# Visual Studio Code specific
+*.code-workspace
+
+# ============================================================
+# Windows
+# ============================================================
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ============================================================
+# macOS (if cross-dev team)
+# ============================================================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ============================================================
+# Misc
+# ============================================================
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+.idea/
+*.iml
